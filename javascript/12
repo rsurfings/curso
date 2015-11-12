@@ -1,0 +1,34 @@
+Declarações e estruturas
+
+	Controle
+		var //criar ou declarar uma ou mais variaveis
+		function //cria uma função
+		return // retorna um valor
+
+	Condicionais
+		if/else
+		switch
+		case
+		break
+
+	Loops
+		for
+		while
+		do/while
+
+	Exceções / tratamento de erros
+		throw
+		try/cath/finally
+
+		Object Error
+			message
+			name
+			toString()
+
+			EvalError: Erro usando o eval()
+			RangeError: numero limite de error
+			ReferenceError: referencia ao valor indefinido
+			SintaxeError: Erro de Sintaxe da linguagem
+			TypeError: Operando diferente do operado esperado
+			URIError: Usando errado a funçao URI
+

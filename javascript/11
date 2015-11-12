@@ -1,0 +1,15 @@
+Operadores
+
+http://www.w3schools.com/js/js_operators.asp
+
+Operadores Especiais (Bits)
+
+?: Operador ternario 
+,: separa expressoes
+delete: apaga operando (unset do php) só com objetos
+in: indica se existe
+instanceof: indica o tipo do objeto
+new: cria ou inicia um objeto
+this: referencia ao objeto atual
+typeof: retorno o tipo
+(): chamada a funcao

@@ -1,0 +1,10 @@
+BOM (window) Browser Object Model 
+descreve os objetos do browser Cada browser pode ter o seu direfente do DOM que é um padrão mantido pela w3c
+
+	Qual o navegar
+	Qual e a localização
+	Qual servidor
+	Qual pagina
+	Largura da tela
+	Posição da tela
+	History

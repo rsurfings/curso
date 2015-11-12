@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <title>Introdução - html</title>
+      <link rel="stylesheet" type="text/css" href="css/11.css">
+      <script type="text/javascript" src="js/11.js"></script>
+  </head>
+  <!-- ... body of document ... -->
+  <body>
+    <h1>Calculo do IMC!</h1> 
+    <h2>IMC = peso / (altura)</h2> 
+
+    <fieldset>
+    <table>
+      
+        <legend>Cálculo do IMC</legend>
+        <form id="formulario">
+          <tr>
+            <th><label>Kilos:</label></th>
+            <td><input type="text" name="Kilos"></td>
+          </tr>
+
+          <tr>
+            <th><label>Metros:</label></th>
+            <td><input type="text" name="metros"></td>
+          </tr>
+
+          <tr>
+            <th><label>Centimetros:</label></th>
+            <td><input type="text" name="centimetros"></td>
+          </tr>
+
+          <tr>
+            <th><label>IMC:</label></th>
+            <td><input type="text" name="imc" disabled></td>
+          </tr>
+
+          <tr>
+            <th></th>
+            <td><a href="" onclick="calcularIMC();return false;">Calcular</a>
+          </tr>
+
+          <tr>
+            <th></th>
+            <td>
+              <table border="1">
+                <tr>
+                  <th>IMC</th>
+                  <th>Classificação</th>
+                </tr>
+                <tr>
+                  <td>< 20</td>
+                  <td>Abaixo do peso</td>
+                </tr>
+                <tr>
+                  <td>20 a 25</td>
+                  <td>Peso ideal</td>
+                </tr>
+                <tr>
+                  <td>25 a 30</td>
+                  <td>Acima do peso</td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+        </form>
+      
+    </table>
+
+    </fieldset>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+Conceitos Básicos
+
+JavaScript
+	É Linguagem Interpretada(Script Engine)
+
+Browser
+	Interpretar o JavaScript
+	Oferecer acesso aos elementos (html,css)
+
+Objetos (Orientação a Objeto)
+
+Objetos (Propriedades e Metodos)
+	Paralelo a vida real
+
+	Objeto: Pessoa
+		Propriedades: altura,peso,profissao
+		Metodos(funcao): andar(),comer(),trabalhar()
+
+	Acessando Objetos
+
+	Pessoa.altura;
+	Pessoa.andar();
+
+	Objetos JavaScript
+
+		Internos (string, date, number) - primitivos
+		
+		Browser (window, document)
+		Personalizados(Pessoa) - construido pelo programador
+
+		Acessando Objetos do navegador.
+			window.alert();
+			window.innerWidth;
+			Pessoa 
+				var Pessoa = new Object();

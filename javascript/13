@@ -1,0 +1,29 @@
+* Orientação a Objeto
+
+Quando eu vejo um pássaro que caminha como um pato, nada como um pato e grasna como um pato, eu chamo aquele pássaro de pato.
+
+*****Alex Martelli
+
+Ref: https://groups.google.com/forum/#!msg/comp.lang.python/CCs2oJdyuzc/NYjla5HKMOIJ
+
+//Encapsula tipos primitivo
+Objetos JavaScript
+
+	Object
+	Boolean - encapsula o tipo primitivo
+	Number - encapsula o tipo primitivo
+	String - encapsula o tipo primitivo
+	Array - um objeto com um conjunto de informações
+	Date - manipular datas
+	Math - calculo matemático
+	RegExp - expressão regular
+	Function - criar um função
+	Error - Tratamento de Exceções
+	EvalError
+	RangeError
+	ReferenceError
+	SintaxeError
+	TypeError
+	URIError
+
+Se não definido o tipo o javascript interperta com um tipo primitivo

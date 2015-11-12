@@ -1,0 +1,13 @@
+ body {
+          background-color: #FFFFFF;
+        }
+        h1 {
+          text-align: center;
+          background-color: #6495ed;
+        }
+        p {
+          background-color: #e0ffff;
+        }
+        img{
+          width: 140px;
+        }

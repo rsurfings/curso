@@ -1,0 +1,21 @@
+Camadas
+
+	W3C Determinha que a estrutura de aplicação web separar os arquivos 
+	html,css,js
+
+	Inline
+	incorporado
+	externo
+
+Separando Camadas
+ html,css,js
+
+Comentários
+	linha unica 
+
+	//
+
+	multiplas linhas
+	/*
+
+	*/

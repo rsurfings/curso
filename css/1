@@ -1,0 +1,21 @@
+Introdução - CSS
+
+O que é CSS
+
+CSS significa C ascading S tyle S heets
+
+CSS é uma linguagem para estilos que define o layout de documentos HTML
+
+Sintaxe
+
+h1 {   
+  color: blue;
+  font-size: 12px;
+}
+
+
+declaração CSS sempre termina com um ponto e vírgula, e grupos de declaração são cercadas por chaves:
+
+fonte de mudança de layout(css)
+
+http://www.csszengarden.com/213/

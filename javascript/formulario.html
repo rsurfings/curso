@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <title>Introdução - html</title>
+      <style>
+        body {
+          background-color: #000000;
+        }
+        h1 {
+          text-align: center;
+          background-color: #6495ed;
+        }
+        p {
+          background-color: #e0ffff;
+        }
+        img{
+          width: 140px;
+        }
+      </style>
+
+      <script type="text/javascript">
+
+        function ligar(){
+          var lampada = window.document.getElementById("lampada");
+          lampada.src = "image/lampada_on.png";
+        }
+
+      </script>
+  </head>
+  <!-- ... body of document ... -->
+  <body onload="window.alert('Carregado ...');">
+    <h1>Olá Mundo!</h1> 
+    <img id="lampada" onclick="ligar()" src="image/lampada_off.png">
+  </body>
+</html>

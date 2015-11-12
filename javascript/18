@@ -1,0 +1,15 @@
+AJAX
+
+O que é AJAX?
+
+AJAX é acrônimo em língua inglesa de "Asynchronous Javascript and XML", que em português significa "Javascript e XML Assíncronos". Designa um conjunto de técnicas para programação e desenvolvimento web que utiliza tecnologias como Javascript e XML para carregar informações de forma assíncrona.
+
+	O que Ajax pode fazer
+
+		- Atualizar uma página web sem recarregar a página
+
+		- Solicitar dados de um servidor - após a página ter sido carregada
+
+		- Receber dados de um servidor - após a página ter sido carregada
+
+		- Enviar dados para um servidor - em background

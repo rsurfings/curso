@@ -1,0 +1,23 @@
+Manipular
+	conteudo
+	apresentações
+	navegador
+
+Interagir
+	usuario
+	formulario
+	linguagens (PHP)
+
+Fonte de Exemplo: http://jquery.com
+
+Requisitos
+	HTML
+	CSS
+	Browser(firefox)
+
+Ferramentas
+
+Editor - Sublime (http://www.sublimetext.com/2)
+Navegador - Firefox (https://www.mozilla.org/pt-BR/firefox/new/)
+plugin - Firebug (https://addons.mozilla.org/pt-br/firefox/addon/firebug/) 
+servidor web/apache/php/

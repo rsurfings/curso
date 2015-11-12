@@ -1,0 +1,27 @@
+Variavel JavaScript
+
+Tipos de dados Primitivos
+	boolean, number, string
+
+x = 1;
+
+y = 2;
+
+x + y = 3;
+
+Variaveis podem conter:
+textos, numeros, booleanos, objetos.
+
+*Importancia de uma variavel
+
+Qual são os Padrões de variaveis(nomenclatura):
+
+_nome: underline // caracteres ultilizado por framework
+$nome: cifrao // caracteres ultilizado por framework
+primeiroNome: CamelCase
+
+*nome facil de ser identificada
+
+Palavras reservadas não deve ser ulilizadas
+
+http://www.w3schools.com/js/js_reserved.asp
