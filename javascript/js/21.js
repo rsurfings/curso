@@ -107,7 +107,7 @@ window.onload = function (){
 			}
 
 			ajax.open("GET",'cd_catalog.xml',true);
-			ajax.send();
+			ajax.send(); //param=1&param2
 
 			return false;
 	};
