@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <title>Introdução - JavaScript - Operadores</title>
+
+      <link rel="stylesheet" type="text/css" href="css/meuStyle.css">
+      <script type="text/javascript" src="js/mask.js"></script>
+
+  </head>
+  <!-- ... body of document ... -->
+  <body>
+    <h1>Operador/Operadores</h1>
+
+    <form>
+      <p>Veja como fica:</p>
+      <label for="inumeros">só números:
+      <input id="inumeros" onkeypress="mascara(this,soNumeros)"/></label>
+      <br>
+      <label for="itelefone">telefone:
+      <input id="itelefone" onkeypress="mascara(this,telefone)" maxlength="14"/></label>
+      <br>
+      <label for="icpf">cpf:
+      <input id="icpf" onkeypress="mascara(this,cpf)" maxlength="14"/></label>
+      <br>
+      <label for="icep">cep:
+      <input id="icep" onkeypress="mascara(this,cep)" maxlength="9"/></label>
+      <br>
+      <label for="icnpj">cnpj:
+      <input id="icnpj" onkeypress="mascara(this,cnpj)" maxlength="18"/></label>
+      <br>
+      <label for="iromanos">romanos:
+      <input id="iromanos" onkeypress="mascara(this,romanos)" maxlength="18"/></label>
+      <br>
+      <label for="isite">site:
+      <input id="isite" onkeyup="mascara(this,site)" value="http://"/></label>
+
+    </form>
+  </body>
+</html>

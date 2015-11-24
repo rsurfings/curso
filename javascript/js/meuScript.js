@@ -1,7 +1,7 @@
 //var nome = prompt("Qual é seu nome?");
 
 window.onload = function(){
-	//document.getElementById("lampada").onclick = ligar();
+	//document.getElementById("lampada").click();
 	setInterval(mostrarHoras,1000);
 }
 
@@ -17,11 +17,13 @@ function ligar(){
 function desligar(){
 	var lampada = document.getElementById("lampada");
 	lampada.src = "image/pic_bulboff.gif";
+	
 	//setInterval(ligar,1000);
 }
 
 function mostrarHoras(){
 	var agora = new Date();
 	var horas = agora.getHours() + ":" + agora.getMinutes() + ":" + agora.getSeconds();
+
 	document.getElementById("horas").innerHTML = horas;
 }

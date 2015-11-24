@@ -28,4 +28,4 @@ function mostrar(){
 	alert(this);
 }
 
-alert(typeof(mostrar));
+//alert(typeof(mostrar));

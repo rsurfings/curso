@@ -18,7 +18,7 @@
         <form id="formulario">
           <tr>
             <th><label>Kilos:</label></th>
-            <td><input type="text" name="Kilos"></td>
+            <td><input type="text" name="kilos"></td>
           </tr>
 
           <tr>
@@ -38,7 +38,9 @@
 
           <tr>
             <th></th>
-            <td><a href="" onclick="calcularIMC();return false;">Calcular</a>
+            <td>
+              <input type="submit" name="Calcular" value="Calcular" onclick="calcularIMC();return false;"/>
+              <!--<a href="" onclick="calcularIMC();">Calcular</a>-->
           </tr>
 
           <tr>
@@ -64,7 +66,6 @@
               </table>
             </td>
           </tr>
-
         </form>
       
     </table>

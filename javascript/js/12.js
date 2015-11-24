@@ -1,4 +1,5 @@
 var idade = 18;
+
 if(idade >= 18){
 	alert("Maior de Idade");
 }else{
@@ -42,7 +43,7 @@ Carro["velocidade"] = "355km/h";
 Carro["motor"] = "6.0L";
 
 //percorre as chaves(key)
-for(var key in Carro){
+for(var key in Carro as ){
 	alert(key + "=" + Carro[key]);
 }
 

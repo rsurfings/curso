@@ -7,6 +7,9 @@ Quando eu vejo um pássaro que caminha como um pato, nada como um pato e grasna 
 Ref: https://groups.google.com/forum/#!msg/comp.lang.python/CCs2oJdyuzc/NYjla5HKMOIJ
 
 //Encapsula tipos primitivo
+
+Se não definido o tipo o javascript interperta com um tipo primitivo
+
 Objetos JavaScript
 
 	Object
@@ -18,12 +21,16 @@ Objetos JavaScript
 	Math - calculo matemático
 	RegExp - expressão regular
 	Function - criar um função
-	Error - Tratamento de Exceções
-	EvalError
-	RangeError
-	ReferenceError
-	SintaxeError
-	TypeError
-	URIError
 
-Se não definido o tipo o javascript interperta com um tipo primitivo
+	Error - Tratamento de Exceções
+			message
+			name
+			toString()
+
+			EvalError: Erro usando o eval()
+			RangeError: numero limite de error
+			ReferenceError: referencia ao valor indefinido
+			SintaxeError: Erro de Sintaxe da linguagem
+			TypeError: Operando diferente do operado esperado
+			URIError: Usando errado a funçao URI
+

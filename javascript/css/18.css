@@ -7,3 +7,7 @@ table{
 .jogos{
 	float: left;
 }
+#carrinho{
+	float: right;
+	background-color: red;
+}
