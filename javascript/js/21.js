@@ -8,39 +8,8 @@ window.onload = function (){
 
 		//console.log(ajax);
 		ajax.onreadystatechange = function(){ // ouve resposta a requisição
-	
-			//console.log(ajax.readyState); //codigo de retorno
-			switch(ajax.readyState)
-			{
-				case 0:
-					//console.log("pedido não inicializado");
-					break;
-				case 1:
-					//console.log("conexão do servidor estabelecido");
-					break;
-				case 2:
-					//console.log("pedido recebido");
-					break;
-				case 3:
-					//console.log("solicitação de processamento");
-					break;
-				case 4:
-					//console.log("solicitar resposta acabado e está pronto");
-					break;	
-				default:
-			}
-
-			//console.log(ajax.status);
-			switch(ajax.status)
-			{
-				case 200:
-					//console.log("OK");
-					break;
-				case 404:
-					//console.log("Page not found");
-					break;
-				default:
-			}
+			
+			debugRetornoAjax(ajax);
 
 			if (ajax.readyState == 4 && ajax.status == 200) {
 
@@ -50,7 +19,6 @@ window.onload = function (){
 
 				//contruirTabela(ajax);
 			}
-
 		}
 
 		ajax.open("POST",'texto.txt',true); //texto.txt | conteudo.html | catalogo_cd.xml
@@ -58,6 +26,42 @@ window.onload = function (){
 
 		return false;
 	};
+
+	function debugRetornoAjax(ajax){
+
+		//console.log(ajax.readyState); //codigo de retorno
+			switch(ajax.readyState)
+			{
+				case 0:
+					console.log("pedido não inicializado");
+					break;
+				case 1:
+					console.log("conexão do servidor estabelecido");
+					break;
+				case 2:
+					console.log("pedido recebido");
+					break;
+				case 3:
+					console.log("solicitação de processamento");
+					break;
+				case 4:
+					console.log("solicitar resposta acabado e está pronto");
+					break;	
+				default:
+			}
+
+			//console.log(ajax.status);
+			switch(ajax.status)
+			{
+				case 200:
+					console.log("OK");
+					break;
+				case 404:
+					console.log("Page not found");
+					break;
+				default:
+			}
+	}
 
 
 	/*
@@ -72,7 +76,7 @@ window.onload = function (){
 		var table = '<table border="2">';
 		table += "<tr><th>Artista</th><th>Titulo</th></tr>";
 		var x = xml.getElementsByTagName("CD");
-		for (var i = 0; i <x.length; i++) { 
+		for (var i = 0; i <x.length; i++) {
 		   table += "<tr><td>" +
 			x[i].getElementsByTagName("ARTIST")[0].childNodes[0].nodeValue +
 		    "</td><td>" +
@@ -88,12 +92,15 @@ window.onload = function (){
 		resposta.innerHTML = table;
 	}
 
-
 	var nodes = document.querySelectorAll('.link');
-	var arr = [];
+
+	//console.log(nodes);
+
 	for (var i = 0, max = nodes.length; i < max; i++){
 		nodes[i].onclick = function (){
 			
+			console.log(this);
+
 			fazRequisicao(this.href);
 
 			return false;
