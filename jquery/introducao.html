@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+  <html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+      <title>Introdução - JQuery</title>
+
+      <link rel="stylesheet" type="text/css" href="css/meuStyle.css">
+
+      <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+
+      <script type="text/javascript" src="js/1.js"></script>
+
+      <script type="text/javascript">
+        $(document).ready(function(){
+        $(".alterar-cor").click(function(event){
+
+            $("a#titulo").css("color","blue");
+            $("a").data("abacaxi").val("azul"); //amarelo
+
+          });
+        });
+
+      </script>
+  </head>
+  <!-- ... body of document ... -->
+  <body>
+    <h1 id="titulo">Olá Mundo!</h1>
+
+    <a href="#">Alterar cor do Titulo com JavaScript</a>
+
+    <br/>
+    <br/>
+    
+    <a href="#" class="alterar-cor">Alterar cor do Titulo com JQuery</a>
+
+  </body>
+</html>
