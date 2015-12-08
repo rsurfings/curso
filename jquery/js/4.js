@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-	$("tbody tr").css("background","#CCC");
+	//$("tbody tr").css("background","#CCC");
 
 	//$("tbody tr:first").css("background","#CCC");
 	
@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 	//$("tbody tr:odd").css("background","#CCC"); //impar
 
-	//$("tbody tr:eq(3)").css("background","#CCC"); //posição
+	//$("tbody tr:eq(2)").css("background","#CCC"); //posição
 
 	//$("tbody tr:gt(2)").css("background","#CCC"); //maior
 

@@ -1,0 +1,32 @@
+.pontilhada{
+	border-style: dashed;
+	padding: 50px;
+	text-align: center;
+}
+
+input, select, textarea{
+	display: block;
+}
+div{
+	border-style: dashed;
+	padding: 50px;
+	text-align: center;
+}
+
+span{
+	border-color: red;
+
+	padding: 30px;
+	color: #CCC;
+}
+
+.input-default{
+	background:#DDD;
+}
+
+.input-error{
+	background: red;
+}
+.alterar-conteudo{
+	background: red;
+}
