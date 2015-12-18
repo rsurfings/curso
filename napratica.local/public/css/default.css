@@ -1,0 +1,143 @@
+.container-fluid {
+	font-size: 11px;
+}
+
+.navbar-nav>li>a,.navbar-brand {
+	padding-top: 4px !important;
+	padding-bottom: 0 !important;
+	height: 28px;
+}
+
+.navbar {
+	min-height: 28px !important;
+}
+
+.panel-title {
+	font-size: 11px;
+}
+
+*::after,*::before {
+	box-sizing: border-box;
+}
+
+*::after,*::before {
+	box-sizing: border-box;
+}
+
+.btn-default {
+	background-color: #fff;
+	border-color: #ccc;
+	color: #333;
+}
+
+.btn {
+	font-size: 12px;
+}
+
+.navbar-default {
+	background-color: #7bbaeb;
+	border-color: #e3f1fb;
+}
+
+.navbar-default .navbar-brand {
+	color: #000000;
+}
+
+.navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus
+	{
+	color: #000000;
+}
+
+.navbar-default .navbar-text {
+	color: #000000;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #000000;
+}
+
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus
+	{
+	color: #000000;
+}
+
+.navbar-default .navbar-nav>.active>a,.navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus
+	{
+	color: #000000;
+	background-color: #e3f1fb;
+}
+
+.navbar-default .navbar-nav>.open>a,.navbar-default .navbar-nav>.open>a:hover,.navbar-default .navbar-nav>.open>a:focus
+	{
+	color: #000000;
+	background-color: #e3f1fb;
+}
+
+.navbar-default .navbar-toggle {
+	border-color: #e3f1fb;
+}
+
+.navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus
+	{
+	background-color: #e3f1fb;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #000000;
+}
+
+.navbar-default .navbar-collapse,.navbar-default .navbar-form {
+	border-color: #000000;
+}
+
+.navbar-default .navbar-link {
+	color: #000000;
+}
+
+.navbar-default .navbar-link:hover {
+	color: #000000;
+}
+
+@media ( max-width : 767px) {
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+		color: #000000;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover,.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus
+		{
+		color: #000000;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>.active>a,.navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,.navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus
+		{
+		color: #000000;
+		background-color: #e3f1fb;
+	}
+}
+
+.panel-primary>.panel-heading {
+	color: #000000;
+	background-color: #7bbaeb;
+	border-color: #337ab7;
+}
+
+/* Absolute Center CSS Spinner */
+.loading {
+  background-image:url("/images/ajax-loader.gif");
+  background-repeat: no-repeat;	
+  position: fixed;
+  z-index: 999;
+  height: 2em;
+  width: 2em;
+  overflow: show;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: none;
+}
+
+/*icon*/
+.icon-vassoura {
+	background-image:url("/images/wipe-97583_640.png");
+  	background-repeat: no-repeat;	
+}
