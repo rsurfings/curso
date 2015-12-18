@@ -1,6 +1,6 @@
 O objetivo do curso é aprender um pouco sobre desenvolvimento web usando (html,css,js,jquery,ui);
 
-Todo o material do curso foi tirado das referencias no arquivo Links de ajuda.
+Todo o material do curso foi tirado das referencias no arquivo AJUDA.txt.
 
 Foi criado um projeto para este curso napratica.local este projeto foi criado no zend studio e é possivel importa-lo. 
 Para seu funcionamento é preciso criar e apontar o virtual host para a pasta public do projeto.

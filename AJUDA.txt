@@ -1,7 +1,5 @@
 Links de ajuda:
 
-
-
 O que é:
 - https://pt.wikipedia.org/wiki/HTML
 - https://pt.wikipedia.org/wiki/Cascading_Style_Sheets
