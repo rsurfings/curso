@@ -15,4 +15,8 @@ napratica.local
 
 Pratiquem criem telas neste projeto em base a compras/compras.php
 
+
+Tive o prazer de lecionar este curso simples para meus colegas cujo trabalhamos para uma empresa em mudanca tecnologica
+
+
 Abraço e Obrigado pela Oportunidade.
